@@ -16,11 +16,17 @@ var length = '';
 function generatePassword() {
   var length = prompt('How many characters would you like your password to be? (Between 8 and 128.)')
 
+//prompt windows for password criteria
   if (length < 8 || length > 128) {
     alert('Password must be between 8 and 128 characters.');
     return generatePassword();
+  } else {
+    var addUpper = confirm('Should password include uppercase letters?');
+    var addLower = confirm('Should password include lowercase letters?');
+    var addNumber = confirm('Should password include numbers?');
+    var addSpecialCharacter = confirm('Should password include special characters?');
   }
-  
+
 }
 
 // Get references to the #generate element
