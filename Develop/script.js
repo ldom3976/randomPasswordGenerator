@@ -27,6 +27,24 @@ function generatePassword() {
     var addSpecialCharacter = confirm('Should password include special characters?');
   }
 
+  //if confirmations are declined
+  if (!addUpper && !addNumber && !addLower && !addSpecialCharacter) {
+    alert('Your password should use at least one criteria to generate.');
+    generatePassword();
+  }
+
+  var passwordName = []
+    if (addUpper) {passwordName = passwordName.concat(upper)}
+    if (addLower) {passwordName = passwordName.concat(lower)}
+    if (addNumber) {passwordName = passwordName.concat(number)}
+    if (addSpecialCharacter) {passwordName = passwordName.concat(specialCharacter)}
+  
+  var randomPassword = ''
+    for (var i=0; i < length; i++) {
+      randomPassword = randomPassword + passwordName[Math.floor(Math.random() * passwordName.length)];
+    }
+
+    return randomPassword;
 }
 
 // Get references to the #generate element
