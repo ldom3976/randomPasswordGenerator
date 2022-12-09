@@ -29,8 +29,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-# Link to Delpoyed URL:
-# Link to GitHub Repository:
+## Link to Delpoyed URL:
+## Link to GitHub Repository:
 
-# Visual Representation: 
+## Visual Representation: 
 
