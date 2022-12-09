@@ -29,7 +29,7 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-### Link to Delpoyed URL:
+### Link to Delpoyed URL: 
 ### Link to GitHub Repository: https://ldom3976.github.io/randomPasswordGenerator
 
 ### Visual Representation: 
