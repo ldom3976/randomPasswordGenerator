@@ -33,12 +33,14 @@ function generatePassword() {
     generatePassword();
   }
 
+  //asks which variable to use
   var passwordName = []
     if (addUpper) {passwordName = passwordName.concat(upper)}
     if (addLower) {passwordName = passwordName.concat(lower)}
     if (addNumber) {passwordName = passwordName.concat(number)}
     if (addSpecialCharacter) {passwordName = passwordName.concat(specialCharacter)}
   
+  //generates password
   var randomPassword = ''
     for (var i=0; i < length; i++) {
       randomPassword = randomPassword + passwordName[Math.floor(Math.random() * passwordName.length)];

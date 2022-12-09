@@ -33,5 +33,6 @@ THEN the password is either displayed in an alert or written to the page
 ## Link to GitHub Repository:
 
 ## Visual Representation: 
-
+![Alt text](assets/Screen%20Shot%202022-12-09%20at%209.54.02%20AM.png)
+![Alt text](assets/Screen%20Shot%202022-12-09%20at%2010.10.30%20AM.png)
 
