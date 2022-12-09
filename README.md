@@ -1,7 +1,7 @@
 # Password Generator
 I have created a random password generator using JavaScript. Using variables, functions, if statements and for loops, I was able to create a responsive password generator that passes all acceptance criteria.
 
-# User Story
+## User Story
 
 ```
 AS AN employee with access to sensitive data
@@ -9,7 +9,7 @@ I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
 
-# Acceptance Criteria
+## Acceptance Criteria
 
 ```
 GIVEN I need a new, secure password
@@ -29,10 +29,10 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-## Link to Delpoyed URL:
-## Link to GitHub Repository:
+### Link to Delpoyed URL:
+### Link to GitHub Repository: https://ldom3976.github.io/randomPasswordGenerator
 
-## Visual Representation: 
+### Visual Representation: 
 ![Alt text](assets/Screen%20Shot%202022-12-09%20at%209.54.02%20AM.png)
 ![Alt text](assets/Screen%20Shot%202022-12-09%20at%2010.10.30%20AM.png)
 
